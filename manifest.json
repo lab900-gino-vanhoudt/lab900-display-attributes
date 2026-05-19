@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Lab900 Display Attributes",
+  "version": "1.0.0",
+  "description": "Toggle a floating overlay that shows the underlying attribute name above each lab900 form field.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Show lab900 attribute names",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
