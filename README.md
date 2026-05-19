@@ -54,3 +54,7 @@ icons/            Toolbar icons (copied to dist/ at build time)
 build.mjs         esbuild bundler + static-asset copier
 tsconfig.json     strict TypeScript config (noEmit)
 ```
+
+## Screenshot
+
+![readme-screenshot.png](readme-screenshot.png)
